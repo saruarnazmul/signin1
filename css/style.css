@@ -1,0 +1,50 @@
+.form1{
+	padding: 80px 0;
+}
+.close-icon{
+	margin-left: 95%;
+}
+.close-icon i{
+	font-size: 20px;
+	color: grey;
+	transition: ease-in 0.4s;
+}
+.close-icon i:hover{
+	color: #ff007a;
+}
+.form-control{
+	margin: 20px 0;
+	font-weight: 600;
+	box-sizing: border-box;
+    box-shadow: 0px 0px 1px 1px grey;
+    border-radius: 0;
+	transition: all ease-in 0.5s;
+
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff007a;
+    outline: 0;
+    box-shadow: 0 0 0 1px #ff007a;
+}
+.btn-custom{
+	background: #ff007a;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-custom:hover{
+	color: #fff;
+}
+.am label{
+	font-size: 18px;
+	font-weight: 500;
+}
+.am p{
+	font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+}
